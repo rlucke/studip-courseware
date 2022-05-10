@@ -1,4 +1,4 @@
-# studip-courseware
+# Stud.IP Courseware
 
 ## Courseware die virtuelle Lernumgebung in Stud.IP
 
