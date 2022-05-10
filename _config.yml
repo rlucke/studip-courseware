@@ -1,2 +1,4 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 title: Stud.IP Courseware
+logo: ./logo.svg
+show_downloads: false
