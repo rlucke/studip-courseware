@@ -6,7 +6,6 @@
 body {
     max-width: 2022px;
 }
-
 h1 {
     font-family: elanFont;
     font-size: 50px;
@@ -32,7 +31,6 @@ p {
     font-size: 14px;
     line-height: 24px;
 }
-
 .top-header {
     margin-bottom: 2em;
 }
@@ -48,18 +46,15 @@ p {
     z-index: -12;
     transform-origin: 0;
 }
-
 .container {
     display: flex;
     flex-direction: row;
     width: 960px;
     margin: 0 auto 100px auto;
 }
-
 .text-row {
     flex: 1 0 50%;
 }
-
 .text-row h1,
 .text-row h2 {
     padding: 25px;
@@ -87,7 +82,6 @@ p {
     min-height: 410px;
     width: 290px;
 }
-
 .box img {
     position: relative;
     display: block;
@@ -104,7 +98,6 @@ p {
     padding: 10px 30px;
     line-height: 20px;
 }
-
 .keyvisual-image {
     flex: 0 1 50%;
     max-width: 50%;
@@ -114,7 +107,9 @@ p {
     max-width: 50%;
     padding-left: 4em;
 }
-
+.statement {
+    width: 100%;
+}
 .statement h3 {
     font-size: 28px;
     text-align: center;
@@ -130,13 +125,11 @@ p {
     flex-direction: column;
     flex: 0 0 45%;
 }
-
 .service {
     display: flex;
     flex-direction: row;
     margin-bottom: 40px;
 }
-
 .service-icon {
     width: 48px;
     height: 48px;
@@ -147,11 +140,9 @@ p {
     border-radius: 50px;
     padding: 18px;
 }
-
 .service-text {
     flex: 1 0 50%;
 }
-
 .service-text h4 {
     border: none;
     font-size: 18px;
