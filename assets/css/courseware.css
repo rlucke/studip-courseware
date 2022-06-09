@@ -3,6 +3,10 @@
     src: url('../fonts/gothamcondensedbookregular.otf');
 }
 
+body {
+    max-width: 2022px;
+}
+
 h1 {
     font-family: elanFont;
     font-size: 50px;
