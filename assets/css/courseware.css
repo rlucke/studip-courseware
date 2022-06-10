@@ -31,6 +31,22 @@ p {
     font-size: 14px;
     line-height: 24px;
 }
+button {
+    background-color: #28b8ce;
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding:14px 15px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+button:hover {
+    transform: translateY(-2px);
+}
 .top-header {
     margin-bottom: 2em;
 }
@@ -100,15 +116,21 @@ p {
 }
 .keyvisual-image {
     flex: 0 1 50%;
-    max-width: 50%;
+    max-width: calc(50% - 2em);
 }
 .keyvisual-text {
     flex: 1 0 50%;
-    max-width: 50%;
+    max-width: calc(50% - 2em);
     padding-left: 4em;
+}
+.keyvisual-text-left {
+    flex: 1 0 50%;
+    max-width: calc(50% - 2em);
+    padding-right: 4em;
 }
 .statement {
     width: 100%;
+    margin: 50px 0 -50px 0;
 }
 .statement h3 {
     font-size: 28px;
@@ -128,7 +150,10 @@ p {
 .service {
     display: flex;
     flex-direction: row;
-    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 1em 2em;
+    min-height: 170px;
+    margin-bottom: 1em;
 }
 .service-icon {
     width: 48px;
