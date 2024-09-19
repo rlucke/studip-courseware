@@ -262,14 +262,3 @@ button:hover {
     bottom: 0;
     left: 0;
 }
-
-
-/* studip fixes */
-
-#project-page-plugin--index #sidebar {
-    display: none;
-}
-
-#project-page-plugin--index #content-wrapper {
-    grid-column: 1/3;
-}
