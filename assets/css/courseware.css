@@ -103,11 +103,11 @@ button {
     min-width: 160px;
     background-color: #1ED2D2;
     box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
-    border-radius: 4px;
     padding: 15px;
     cursor: pointer;
     letter-spacing: 1px;
     font-weight: 500;
+    text-transform: uppercase;
     transition: background 0.3s ease-in-out;
     border: 2px solid transparent;
     border-radius: 5px;
@@ -139,9 +139,10 @@ button:hover {
 }
 .container {
     display: flex;
+    gap: 10px;
     flex-direction: row;
     width: 960px;
-    margin: 0 auto 100px auto;
+    margin: 0 auto 150px auto;
 }
 .text-row {
     flex: 1 0 50%;
@@ -198,6 +199,10 @@ button:hover {
     max-width: calc(50% - 2em);
     padding-left: 4em;
 }
+.keyvisual-text a {
+    float: right;
+    margin-top: 20px;
+}
 .keyvisual-text-left {
     flex: 1 0 50%;
     max-width: calc(50% - 2em);
@@ -205,7 +210,7 @@ button:hover {
 }
 .statement {
     width: 100%;
-    margin: 50px 0 -50px 0;
+    margin: 0 0 -50px 0;
 }
 .statement h3 {
     font-size: 28px;
@@ -216,6 +221,7 @@ button:hover {
 }
 .service-container {
     justify-content: space-between;
+    margin: 0 auto 50px auto;
 }
 .services {
     display: flex;
@@ -237,7 +243,7 @@ button:hover {
     filter: brightness(0) saturate(100%) invert(77%) sepia(87%) saturate(1190%) hue-rotate(120deg) brightness(91%) contrast(79%);
     border: solid thin #000;
     margin: auto 30px auto 0;
-    border-radius: 50px;
+    border-radius: 16px;
     padding: 18px;
 }
 .service-text {
